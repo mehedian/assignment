@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="styles.css" rel="stylesheet">
 
     <title>Portfolio</title>
@@ -18,8 +19,8 @@
 
 <body>
     <!-- Navbar starts here -->
-    <nav class="navbar navbar-expand-lg text-uppercase navbar-dark bg-info">
-        <a class="navbar-brand" href="#">Mehedi</a>
+    <nav class="navbar navbar-expand-lg text-uppercase navbar-dark bg-info" id="top">
+        <a class="navbar-brand animated infinite flipInX delay-2s" href="#">Mehedi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,16 +28,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="#port"><i class="fas fa-chalkboard-teacher"></i>Portfolio </a>
+                    <a class="nav-link animated infinite tada delay-2s" href="#port"><i
+                            class="fas fa-chalkboard-teacher"></i>Portfolio </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#about"><i class="fas fa-address-card"></i>About</a>
+                    <a class="nav-link animated infinite tada delay-2s" href="#about"><i
+                            class="fas fa-address-card"></i>About</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#contact"><i class="far fa-address-book"></i>Contact</a>
+                    <a class="nav-link animated infinite tada delay-2s" href="#contact"><i
+                            class="far fa-address-book"></i>Contact</a>
                 </li>
             </ul>
-        </div>
+
     </nav>
     <!-- Navbar ends here -->
 
@@ -46,7 +50,8 @@
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
                     <h1>Are You looking for web developer?</h1>
-                    <p>I'm a web developer & deisgner living in Dhaka,Bangladesh. I make websites. usually with bootstrap 4!</p>
+                    <p>I'm a web developer & deisgner living in Dhaka,Bangladesh. I make websites. usually with
+                        bootstrap 4!</p>
                 </div>
                 <div class="col-12 col-sm">
                     <img src="assets/me.JPG" alt="Mehedi" width="100%" height="250px">
@@ -166,7 +171,7 @@
         <h1 class="text-primary" id="contact">Reach me at:</h1>
         <div class="row-content">
             <div class="col-12  align-self-center">
-             
+
                 <div class="middle">
                     <a class="btn btn-xl" href="https://www.facebook.com/mehedian">
                         <i class="fab fa-facebook-f"></i>
@@ -180,7 +185,8 @@
                     <a class="btn  btn-xl" href="https://www.instagram.com/mehedious/">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="btn  btn-xl" href="https://www.youtube.com/channel/UCRp3z3pBGKH3lQ572rsagzg?view_as=subscriber">
+                    <a class="btn  btn-xl"
+                        href="https://www.youtube.com/channel/UCRp3z3pBGKH3lQ572rsagzg?view_as=subscriber">
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>
@@ -190,16 +196,21 @@
     <!-- animation ends here -->
     <!-- Footer starts here -->
     <footer class="footer">
-        <div class="container">
-            <div class="row justify-content-center">
 
-
-                <div class="row justify-content-center">
-                    <div class="col-auto">
-                        <p>© Copyright 2020 Mehedi Hasan</p>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-12 offset-1 offset-sm-1 col-sm-3">
+                <p>&copy; Copyright 2020 Mehedi Hasan</p>
             </div>
+            <div class="col offset-1 offset-sm-1 col-sm-2">
+                <a href="#top">top<i class="fas fa-upload"></i></a>
+            </div>
+            <div class="col col-sm ">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">pricing</a>
+               
+            </div>
+        </div>
     </footer>
     <!-- Footer ends here -->
 

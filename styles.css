@@ -13,7 +13,7 @@
 .footer {
   background-color: #D1C4E9;
   margin: 0px auto;
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 
 .jumbotron {
@@ -39,8 +39,10 @@ body {
 
 .btn-xl{
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 40px;
+/* widows: 90px; */
+  /* height: 90px; */
+  height: 40px;
   background: #f1f1f1;
   margin: 10px;
   border-radius: 30%;
@@ -50,8 +52,10 @@ body {
   position: relative;
 }
 .btn-xl i{
-  line-height: 90px;
-  font-size: 26px;
+  line-height: 30px;
+  /* line-height: 90px; */
+  /* font-size: 26px; */
+  font-size: 20px;
   transition: 0.2s linear;
 }
 .btn-xl:hover i{
